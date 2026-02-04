@@ -1,0 +1,150 @@
+body {
+	background-color:#fbe29d;
+	padding: 15px;
+	padding-top: 100px;
+}
+
+h1, h3, p, .songs {
+	color:#775537;
+	text-shadow: 2px 2px 4px #ac895f;
+}
+h1 {
+	font-family: "Pinyon Script", cursive;
+    font-weight: 500;
+    font-style: normal;
+	margin-bottom: 5px;
+}
+
+h1#title {
+	font-size: 4rem;
+}
+
+h3 {
+    font-style: normal;
+	margin-top: 0;
+}
+
+p, h3, .songs {
+    font-weight: 400;
+}
+
+p, .blogtitle, h3, .songs {
+	font-family: "Montserrat", sans-serif;
+}
+
+p, .blogtitle {
+	font-size:20px
+}
+
+.blogtitle {
+	font-weight: 500;
+	font-style: italic;
+}
+
+hr {
+    background-color:#775537;
+	border: none;
+    height: 1px;
+}
+
+.separator {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.navigation, .nav, div#title, .box2, .box3, .box1, .posts, .songs, .album, .mini_preview{
+	border: 1px solid #775537;
+}
+
+.navigation, div#title, .box1, .box2, .box3 {
+	box-shadow:3px 3px 10px #ac895f;
+}
+
+.box1, .box2, .box3, div#title {
+	border-radius:10px;
+}
+
+.nav, .posts, .songs, .album, .mini_preview {
+	border-radius:15px;
+}
+
+.nav, .posts, .songs{
+    background-color:#f1f1f1;
+	padding:10px; 
+	margin-bottom:4px; 
+	cursor:pointer;
+}
+
+.navigation {
+    background-color:#c0ddda; 
+    padding:20px; 
+	position:fixed;
+	top: 0px;
+    left: 0px;
+	right:0px;
+	display: flex; 
+	justify-content:flex-end;  
+	gap: 10px;
+}
+
+.nav {
+	color: #775537;
+	font-size: 14px;
+	font-weight: 900;
+	text-align:center;  
+	font-family: 'Merriweather', serif;
+}
+
+div#title {
+	background-image:url(https://i.pinimg.com/1200x/86/7c/f6/867cf65a9adc5377f794ca6cd2bc4a97.jpg);
+	background-size:cover; 
+	background-repeat:no-repeat; 
+	background-position:center;
+	padding:20px; 
+	width:1400px; 
+	margin:auto; 
+	text-align:center; 
+	margin-bottom: 20px;
+}
+
+.container {
+    display: flex;             
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box1, .box2, .box3 {
+	background-color:#ffeec0;
+	padding:20px;
+	text-align:justify; 
+}
+
+.box1 { 
+    width: 25%; 
+}
+
+.box2 { 
+    width: 55%; 
+}
+
+.box3 { 
+    width: 20%;
+}
+
+.mini_preview {
+	width:150px ;
+	height:150px ;
+}
+
+.songs, .posts {
+	display: flex;
+    align-items: center;
+    gap: 8px;   
+    width: 100%;	
+	text-align: left;
+}
+
+.album {
+	width:100px;
+	height:100px;
+}
