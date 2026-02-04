@@ -84,7 +84,7 @@ hr {
 }
 
 .nav:hover, .posts:hover, .songs:hover{
-	background-color:#f1f1f1;
+	background-color:#ac895f;
 }
 
 .nav:active, .posts:active, .songs:active{
@@ -164,3 +164,4 @@ div#title {
 	width:100px;
 	height:100px;
 }
+
