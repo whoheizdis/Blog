@@ -75,6 +75,22 @@ hr {
 	cursor:pointer;
 }
 
+.nav:link, .posts:link, .songs:link{
+	background-color:#f1f1f1;
+}
+
+.nav:visited, .posts:visited, .songs:visited{
+	background-color:#c0ddda;
+}
+
+.nav:hover, .posts:hover, .songs:hover{
+	background-color:#f1f1f1;
+}
+
+.nav:active, .posts:active, .songs:active{
+	background-color:#ffd562;
+}
+
 .navigation {
     background-color:#c0ddda; 
     padding:20px; 
